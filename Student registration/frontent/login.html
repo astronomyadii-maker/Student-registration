@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login | Indira Gandhi Engineering College</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header>
+        <h1>Indira Gandhi Engineering College Sagar</h1>
+        <h2>Affiliated to RGPV, Established in 1981</h2>
+    </header>
+
+    <nav aria-label="Main menu">
+        <a href="home.html">Home</a>
+        <a href="login.html" aria-current="page">Student Login</a>
+        <a href="Registration.html">Registration</a>
+        <a href="placement.html">Facilities</a>
+        <a href="placement.html">Departments</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <section id="student-login" aria-labelledby="login-title">
+        <h2 id="login-title">Student Login</h2>
+
+        <form id="login-form" onsubmit="return false;">
+            <label for="enroll">Enrollment No.</label>
+            <input type="text" id="enroll" name="enroll" placeholder="Enter your enrollment no." autocomplete="username" required>
+
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="password" placeholder="Enter your password" autocomplete="current-password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="toggle_links">New student? <a href="Registration.html">Register here</a></div>
+    </section>
+
+    <footer>
+        &copy; 2026 Indira Gandhi Engineering College, Sagar
+    </footer>
+
+</body>
+</html>
